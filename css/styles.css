@@ -1,0 +1,128 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+    font-size: 1.1rem;
+}
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(135deg, #007bff, #6c8eff);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.btn-hero {
+    background-color: white;
+    color: #007bff;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    transition: 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Services Section */
+.service-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Form Styling */
+#contact h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Hero Section for About Page */
+.hero-about {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-about h1 {
+    font-weight: 700;
+}
+
+/* Team Cards */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
